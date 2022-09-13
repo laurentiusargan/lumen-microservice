@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/9.3/phpunit.xsd" backupGlobals="true"
+         bootstrap="vendor/autoload.php">
+    <coverage processUncoveredFiles="true">
+        <include>
+            <directory>app</directory>
+        </include>
+    </coverage>
+    <testsuites>
+        <testsuite name="Test project Testing">
+            <directory>test</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
